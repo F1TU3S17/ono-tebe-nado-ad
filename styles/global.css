@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 *,
 *::before,
 *::after {
@@ -8,7 +13,10 @@ body {
   width: 1100px;
   margin: 0 auto;
   font-family: Raleway, sans-serif;
+  background-color: #ffffff;
 }
+
+
 
 h1,
 h2,
@@ -35,4 +43,43 @@ img {
 
 button {
   font: inherit;
+}
+
+h1 {
+  font-family: Raleway, sans-serif;
+  font-size: 100px;
+  font-weight: 700;
+  font-style: bold;
+  text-transform: uppercase;
+  letter-spacing: 30px;
+  line-height: 1.36;
+}
+
+h2 {
+  font-family: Raleway, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  font-style: bold;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 22px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 0%;
+}
+
+p{
+  font-family: Raleway, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
 }

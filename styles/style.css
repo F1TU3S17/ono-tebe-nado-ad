@@ -1,1 +1,281 @@
-/* место для вашего кода */
+.header{
+  width: 100%;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 96px;
+  padding-top: 92px;
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+}
+
+.header-logo{
+  width: 130px;
+  height: 105px;;
+}
+
+.menu-list{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  list-style: circle;
+}
+
+.menu-item{
+  font-size: 18px;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  color: #000;
+}
+
+.first-menu-item {
+  list-style: none;
+}
+
+.active-menu-text{
+  text-decoration: none;
+
+}
+
+.adresses{
+  font-size: 18px;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  max-width: 240px;
+}
+
+.header-adresses{
+  justify-self: end;
+}
+
+.cover{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-right: 20px;
+  padding-left: 50px;
+  width: 100%;
+  height: 757px;
+  background-image: url(/images/cover.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 180px;   
+  z-index: 0;        
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+.cover-title{  
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  color: #fff;
+  margin-top: 155px;
+}
+
+.cover-title-span{
+  display: block;
+}
+
+.center-text{
+  text-align: center;
+}
+
+.right-text{
+  text-align: right;
+}
+
+.cover-description{
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding-top: 50px;
+  height: 100%;
+  padding-right: 30px;
+}
+
+.cover-description-text{
+  font-family: Raleway, sans-serif;
+  color: white;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  word-spacing: 20px;
+  text-transform: uppercase;
+}
+
+.bet-button{ 
+  font-size: 22px;
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  height: 51px;
+  width: 256px;
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+  text-transform: uppercase;
+}
+
+.lots{
+  width: 100%;
+  margin-bottom: 120px;
+  padding: 24px 0px;
+}
+
+.lots-title{
+  padding-left: 40px;
+  padding-bottom: 27px;
+}
+
+.lots-card-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  gap:25px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.lots-card-list-item{
+  min-height: 596px;
+  width: 334px;
+}
+
+.lots-card{
+  padding: 40px 48px;
+
+  position: relative;
+  z-index: 0;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.card-title{
+  display: block;
+  color: white;
+}
+
+.card-text{
+  color: white;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0%;
+
+}
+
+.card_type_film{
+  background-image: url(/images/card-lot-01.jpg);
+}
+
+.card_type_book{
+  background-image: url(/images/card-lot-02.jpg);
+}
+
+.card_type_picture{
+  background-image: url(/images/card-lot-03.jpg);
+}
+
+.card-link{
+  height: 100%;
+  text-decoration: none;
+}
+
+.look-more{
+  padding-left: 40px;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+}
+
+.about{
+  width: 100%;
+  padding: 24px 0px;
+  margin-bottom: 180px;
+  display: grid;
+  grid-template-columns: 334px 1fr;
+}
+
+.about-logo{
+  justify-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;;
+  width: 240px;
+  height: 240px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.about-logo-img{
+  width: 148px;
+  height: 114px;
+
+}
+
+.about-text{
+  padding-top: 100px;
+}
+
+.about-title{
+  padding-bottom: 100px;
+}
+
+.paragraph-spacing{
+  padding-bottom: 24px;
+}
+
+.footer{
+  width: 100%;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-bottom: 82px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  justify-items: space-between;
+}
+
+.footer-menu-list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+}
+
+.footer-menu-item{
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.footer-social-media{
+  display: flex;
+   gap: 48px;
+}
+
+.footer-social-icon{
+  width: 48px;
+  height: 48px
+}
+
